@@ -2,7 +2,7 @@
   <div class="hello">
 
     <input type="text" v-model="namaDepan">
-    <p>Nama Saya {{namaDepan}} <span v-html="namaBelakang"/></p>
+    <p>My name {{namaDepan}} <span v-html="namaBelakang"/></p>
     <p>Umur Saya {{umur}} tahun</p>
     <p>Status Saya {{status? 'jomblo':'single'}}</p>
     <p>Saya 
